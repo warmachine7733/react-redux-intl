@@ -9,9 +9,6 @@ import be from "react-intl/locale-data/be";
 import te from "react-intl/locale-data/te";
 import ka from "react-intl/locale-data/ka";
 
-// This function will map the current redux state to the props for the component that it is "connected" to.
-// When the state of the redux store changes, this function will be called, if the props that come out of
-// this function are different, then the component that is wrapped is re-rendered.
 let mapStateToProps = state => {
   // console.log("format",state)
   addLocaleData(en);
